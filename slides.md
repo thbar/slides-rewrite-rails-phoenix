@@ -7,6 +7,10 @@ footer: Thibaut Barrère (thibaut.barrere@gmail.com) - juillet 2016
 
 ---
 
+![inline](meetup.png)
+
+---
+
 # Pourquoi une rewrite?
 
 * Elixir flaggé "stratégique" sur mon radar tech :sunglasses:
@@ -15,6 +19,13 @@ footer: Thibaut Barrère (thibaut.barrere@gmail.com) - juillet 2016
   * Robotique, IoT, ETL, Streaming. 
 * Rewrite = apprentissage & comparaison
 * Comparaison des écosystèmes
+
+
+---
+
+# [fit] Rewrite "side-by-side"
+
+![right 80%](diagram.png)
 
 ---
 
@@ -282,7 +293,7 @@ assert visible_page_text =~ ~r/You have been logged out/i
 # Déploiement
 
 * Heroku: build-pack fonctionnel rapidement
-* EngineYard: custom cookbook mais pas trop compliqué
+* EngineYard: custom cookbooks, pas horrible
 * Pas de hot-reloading pour le moment
 
 ---
@@ -290,10 +301,9 @@ assert visible_page_text =~ ~r/You have been logged out/i
 # Mes conclusions pour le moment
 
 * Données immutables = fondation solide
+* Effets de 2nd ordre (levier, composabilité)
 * TDD = aide beaucoup pour prendre en main
 * Librairies jeunes (perte de temps - maintenance)
 * Confort très similaire à Ruby en régime de croisière
 * Moins de "compromis duct-tape" qu'avec Ruby
 * Usage confirmé pour web, scalabilité et ETL
-
----
